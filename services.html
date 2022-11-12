@@ -1,0 +1,161 @@
+<!-- Faisal Buzaidan 2042969 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- JS For Bootsratp -->
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <!-- Goolge Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Services</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-5" href="index.html">Fa<span class="ani">isal</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item fs-5">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item fs-5">
+                                <a class="nav-link" href="education.html">Education</a>
+                            </li>
+                            <li class="nav-item fs-5">
+                                <a class="nav-link active" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item fs-5">
+                                <a class="nav-link" href="aboutme.html">About Me</a>
+                            </li>
+                            <li class="nav-item fs-5">
+                                <a class="nav-link" href="contactme.html">Contact Me</a>
+                            </li>
+                            <li class="nav-item fs-5">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="services section-padding">
+        <div class="container">
+            <h2>
+                <span class="header-title">My</span> Services
+            </h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <!-- Add as SVG here  -->
+                            <img src="./media/business-chart-finance-9-svgrepo-com.svg" alt="picture of chart">
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">
+                                Cyber Security Consultation
+                            </h5>
+                            <p class="subtitle">Helping small and medium organisations with giving high 
+                                quality cyber security analysis including a full details to ensure a 
+                                strong line of defence exist in the organisation
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <!-- Add as SVG here  -->
+                            <img src="./media/business-chart-finance-10-svgrepo-com.svg" alt="picture of chart">
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">
+                                Web Development Design
+                            </h5>
+                            <p class="subtitle">Designing full user interface web pages including providing 
+                                best user experience by the use of both Adobe XD and Figma Design tools
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <!-- Add as SVG here  -->
+                            <img src="./media/business-chart-finance-11-svgrepo-com.svg" alt="Small chart">
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">
+                                Web Frontend Development
+                            </h5>
+                            <p class="subtitle">Provide a technical architectural design of frontend development
+                                 and programming web pages by using HTML/CSS and JavaScript
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="req-service section-padding">
+        <div class="container">
+            <h2>
+                <span class="header-title">Request</span> services
+            </h2>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="row">
+                    <form class="row g-3 needs-validation" novalidate action="mailto:faisal.20092010@hotmail.com" method="post">
+                        <div class="col-md-6">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name" value="" required>
+                          <div class="invalid-feedback">
+                            Full Name Is Required
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="text" class="form-control" id="email" value="" required>
+                          <div class="invalid-feedback">
+                            Email Is Required
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <label for="service" class="form-label">Select Service</label>
+                          <select class="form-select" id="service" required>
+                            <option selected disabled value="">Select Service...</option>
+                            <option value="Cyber" >Cyber Security Consultation</option>
+                            <option value="Web Design" >Web Development Design</option>
+                            <option value="Web frontend" > Web Frontend Development</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid service.
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-dark" type="submit">Submit</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
